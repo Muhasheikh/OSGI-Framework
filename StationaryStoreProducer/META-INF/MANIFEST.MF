@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: StationaryStoreProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Muhassan
+Bundle-Activator: stationaryStoreproducer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: SuperMarketServiceProducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: dataStore,
+ managerService,model

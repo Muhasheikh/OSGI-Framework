@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: StationaryStoreManagerConsumer
+Bundle-SymbolicName: StationaryStoreManagerConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: stationarystoremanagerconsumer.Activator
+Bundle-Vendor: Muhassan
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Automatic-Module-Name: StationaryStoreManagerConsumer
+Import-Package: managerService,
+ model,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
